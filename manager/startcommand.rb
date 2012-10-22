@@ -1,8 +1,9 @@
 require 'rubygems'
 require 'json'
-require 'manager/rediscommand'
-require 'manager/redisnode'
 require 'open3'
+require File.join(File.dirname(__FILE__), 'rediscommand')
+require File.join(File.dirname(__FILE__), 'redisnode')
+
 
 # Command for Start
 class StartCommand < RedisCommand

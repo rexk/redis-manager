@@ -1,4 +1,4 @@
-require "manager/redisnode"
+require File.join(File.dirname(__FILE__), "../manager/redisnode")
 
 class Redisnodetest < Test::Unit::TestCase
   def test_toHash

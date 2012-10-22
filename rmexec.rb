@@ -1,5 +1,5 @@
 #!/bin/usr/env ruby
-require 'manager/redismanager'
+require File.join(File.dirname(__FILE__), 'manager/redismanager')
 
 rm = RedisManager.new
 rm.run

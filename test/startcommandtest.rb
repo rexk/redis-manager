@@ -1,7 +1,7 @@
 
 require 'rubygems'
 require 'json'
-require 'manager/startcommand'
+require File.join(File.dirname(__FILE__), "../manager/startcommand")
 
 class Startcommandtest < Test::Unit::TestCase
   def test_help
