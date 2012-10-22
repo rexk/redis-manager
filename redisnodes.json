@@ -1,0 +1,5 @@
+[
+	{"port":9832,"node_number":2},
+	{"port":9831,"node_number":1},
+	{"slaveof":"123.0.0.1:9082","port":9833,"node_number":4}
+]
