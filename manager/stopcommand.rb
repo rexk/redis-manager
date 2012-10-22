@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'json'
-require 'manager/rediscommand'
 require 'open3'
+require File.join(File.dirname(__FILE__), 'rediscommand')
 
 # Reads a pidfiles in json and kill associate processes
 class StopCommand < RedisCommand

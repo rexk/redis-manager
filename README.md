@@ -21,8 +21,10 @@ Installation
 	sudo gem install json
 	
 ### Redis Manager Installation
-The project must be installed at a root folder of redis. 
-	 git clone git://github.com/RexK/redis-manager.git
+In order to download project, execute following command
+	git clone git://github.com/RexK/redis-manager.git
+
+**Node that the project must be placed at a root folder of redis. this can be achieved by moving every files in the project into the root folder of the Redis
 	 
 Usage
 -----
