@@ -1,7 +1,7 @@
-require 'manager/redisnode'
-require 'manager/rediscommand'
-require 'manager/startcommand'
-require 'manager/stopcommand'
+require File.join(File.dirname(__FILE__), 'redisnode')
+require File.join(File.dirname(__FILE__), 'rediscommand')
+require File.join(File.dirname(__FILE__), 'startcommand')
+require File.join(File.dirname(__FILE__), 'stopcommand')
 
 # Class that manages redis commands 
 class RedisManager

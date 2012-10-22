@@ -1,4 +1,4 @@
-require 'manager/stopcommand'
+require File.join(File.dirname(__FILE__), "../manager/stopcommand")
 
 class Stopcommandtest < Test::Unit::TestCase
    

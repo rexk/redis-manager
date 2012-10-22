@@ -1,7 +1,7 @@
-require 'manager/redisnode'
-require 'manager/rediscommand'
-require 'manager/startcommand'
-require 'manager/redismanager'
+require File.join(File.dirname(__FILE__), '../manager/redisnode')
+require File.join(File.dirname(__FILE__), '../manager/rediscommand')
+require File.join(File.dirname(__FILE__), '../manager/startcommand')
+require File.join(File.dirname(__FILE__), '../manager/redismanager')
 
 class Redismanagertest < Test::Unit::TestCase
   def test_run
