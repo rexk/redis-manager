@@ -1,4 +1,4 @@
-require 'stopcommand'
+require 'manager/stopcommand'
 
 class Stopcommandtest < Test::Unit::TestCase
    

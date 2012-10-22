@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'json'
-require 'rediscommand'
-require 'redisnode'
+require 'manager/rediscommand'
+require 'manager/redisnode'
 require 'open3'
 
 # Command for Start
@@ -51,10 +51,10 @@ class StartCommand < RedisCommand
         stdin, stdout, stderr = Open3.popen3(command)
       }
       f = File.new('pidfiles.json', "w+")
-      f.write(@pidfiles.to_json)
+      f.write(JSON.pretty_generate(@pidfiles))
       f.close
     else
-      help
+      describe()
     end
   end
   

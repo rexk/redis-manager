@@ -1,7 +1,7 @@
-require 'redisnode'
-require 'rediscommand'
-require 'startcommand'
-require 'redismanager'
+require 'manager/redisnode'
+require 'manager/rediscommand'
+require 'manager/startcommand'
+require 'manager/redismanager'
 
 class Redismanagertest < Test::Unit::TestCase
   def test_run

@@ -1,7 +1,7 @@
 
 require 'rubygems'
 require 'json'
-require 'startcommand'
+require 'manager/startcommand'
 
 class Startcommandtest < Test::Unit::TestCase
   def test_help

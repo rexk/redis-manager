@@ -1,4 +1,4 @@
-require "redisnode"
+require "manager/redisnode"
 
 class Redisnodetest < Test::Unit::TestCase
   def test_toHash
